@@ -72,7 +72,7 @@ export default function Signup() {
             console.log(url)
             database.users.doc(uid).set({
               email:email,
-              userid:uid,
+              userId:uid,
               fullname:name,
               profileUrl:url,
               createdAt:database.getTimeStamp()
